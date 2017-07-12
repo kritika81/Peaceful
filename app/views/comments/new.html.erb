@@ -1,0 +1,12 @@
+
+<h1>new comment</h1>
+<%= form_for :comments, url: comments_path do |f| %>
+ <p>
+    <%= f.label :writecomment %><br>
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+ 
+<% end %>
