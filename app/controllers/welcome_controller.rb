@@ -4,6 +4,7 @@ class WelcomeController < ApplicationController
 def sleepandfood
 
 
+
 end
 
 def relationship
